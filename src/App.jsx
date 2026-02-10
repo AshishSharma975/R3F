@@ -13,9 +13,13 @@ const App = () => {
       <Scene />
        <EffectComposer>
         <Bloom
+
         mipmapBlur
-          intensity={1.0}          
+
+          intensity={2.0}  
+
           luminanceThreshold={0} 
+          
           luminanceSmoothing={0}
         />
       </EffectComposer>
