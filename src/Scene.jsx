@@ -11,6 +11,7 @@ const Scene = () => {
   let cyl = useRef(null);
   useFrame((state, delta) => {
     cyl.current.rotation.y += delta;
+    // cyl.current.rotation.x += delta
   });
 
   return (
